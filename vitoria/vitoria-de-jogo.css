@@ -1,9 +1,6 @@
 body{
     background-image: url(wallpaper.jpg);
     margin: auto;
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
 }
 header{
     margin: auto;
@@ -61,7 +58,7 @@ font-family: 'Bebas Neue', cursive;
 footer{
     background-image:url(fundologo.jpg);
     text-align: center;
-    padding-top: 5px;
+    padding-bottom: 5px;
 }
 footer p{
     font-family: 'Times New Roman', Times, serif;
@@ -76,23 +73,27 @@ p span{
        font-family: 'WaltographRegular';
 }
 @media screen and (max-width: 700px){
-    #vitoria, #gameover-tarzan, #gameover-kuzco, #gameover-nemo{
+    body{
         background-image: none;
         background-color: rgb(15, 15, 59);
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
     header{
         margin: 5px 0 5px 0;
         padding: 10px 0 10px 0;
         background-image: none;
     }
-    p{
-        text-align: justify;
-        font-size: 30px;
-        padding: 10px 10px 10px 10px;
+    main{
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-    .gameover{
-        font-size: 50px;
+    p{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
     }
     .tarzan-venceu{
         width: 250px;
@@ -103,13 +104,8 @@ p span{
     .kuzco-venceu{
         width: 200px;
     }
-    .kuzco-lhama{
+    a .vitoria-de-jogo{
         width: 200px;
-    }
-    .tarzan-perdeu{
-    width: 200px;
-    }
-    .fim-de-jogo{
-        height: 60px;
+        height: 40px;
     }
 }
