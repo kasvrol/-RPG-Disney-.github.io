@@ -1,0 +1,93 @@
+body{
+    background-image: url(wallpaper.jpg);
+    margin: auto;
+}
+header{
+    background-image: url(wallpaper.jpg);
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-family: 'WaltographRegular';
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    margin: 20px 20px 20px 20px;
+    padding: 30px 30px 30px 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.personagens-historias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.personagens-a-ser-escolhidos{
+    align-items: center;
+    width: 30%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.personagens-a-ser-escolhidos:hover{
+    width: 40%;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.imagens{
+    width: 250px;
+}
+.imagens:hover{
+    width: 300px;
+}
+@media screen and (max-width: 700px){
+    body{
+        background-image: none;
+        background-color: rgb(15, 15, 59);
+        margin: auto;
+    }
+    header{
+        margin: 5px 0 5px 0;
+        padding: 10px 0 10px 0;
+        background-image: none;
+    }
+    .personagens-historias{
+        flex-direction: column;
+        justify-content: space-between;
+        width: initial;
+        align-items: center;
+    }
+    h2{
+        text-align: justify;
+    }
+    h3{
+        color: white;
+    }
+    .personagens-a-ser-escolhidos{
+        height: auto;
+        margin: 20px 0px 20px 0px;
+    }
+    .imagens{
+        width: 200px
+    }
+    .imagens:hover{
+        width: 250px;
+    }
+}
