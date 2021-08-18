@@ -6,7 +6,7 @@ function imperador01() {
             break;
         }
         else if (escolha == 2) {
-            location.assign('gameover-kuzco.html');
+            location.assign('../gameover/gameover-kuzco.html');
             break;
         }
         else {
@@ -23,7 +23,7 @@ function imperador02() {
             break;
         }
         else if (escolha == 2) {
-            location.assign('gameover-kuzco.html');
+            location.assign('../gameover/gameover-kuzco.html');
             break;
         }
         else {
@@ -36,11 +36,11 @@ function imperador03() {
     while (true) {
         var escolha = prompt("1 - Kuzco toma todos os frascos até conseguir achar o antídoto e volta a ser humano. \n 2 - Kuzco faz Patcha tomar todos os frascos de poções e passar a ser vários animais até conseguir encontrar o antídoto.");
         if(escolha ==1){
-            location.assign('vitoria-kuzco.html');
+            location.assign('../vitoria/vitoria-kuzco.html');
             break;
         }
         else if (escolha == 2) {
-            location.assign('gameover-kuzco.html');
+            location.assign('../gameover/gameover-kuzco.html');
             break;
         }
         else {
