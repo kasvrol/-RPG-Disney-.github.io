@@ -1,0 +1,115 @@
+body{
+    background-image: url(wallpaper.jpg);
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+header{
+    margin: auto;
+    padding: 20px 10px 0px 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-family: 'WaltographRegular';
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 40px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center; 
+    margin: 20px 0px 0px 0px;
+}
+.tarzan-venceu{
+    width: 350px;
+}
+.marlin-e-dory{
+    width: 350px;
+}
+.kuzco-lhama{
+    width: 300px;
+}
+.kuzco-venceu{
+width: 230px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+a .vitoria-de-jogo{
+margin-top: 10px;
+width: 400px;
+height: 40px;
+background-color: red;
+border-bottom: red;
+font-size: 20px;
+color: white;
+font-family: 'Bebas Neue', cursive;
+}
+footer{
+    background-image:url(fundologo.jpg);
+    text-align: center;
+    padding-top: 5px;
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+p span{
+       color: white;
+       font-size: 30px;
+       text-align: center;
+       font-family: 'WaltographRegular';
+}
+@media screen and (max-width: 700px){
+    #vitoria, #gameover-tarzan, #gameover-kuzco, #gameover-nemo{
+        background-image: none;
+        background-color: rgb(15, 15, 59);
+        margin: auto;
+    }
+    header{
+        margin: 5px 0 5px 0;
+        padding: 10px 0 10px 0;
+        background-image: none;
+    }
+    p{
+        text-align: justify;
+        font-size: 30px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gameover{
+        font-size: 50px;
+    }
+    .tarzan-venceu{
+        width: 250px;
+    }
+    .marlin-e-dory{
+        width: 200px;
+    }
+    .kuzco-venceu{
+        width: 200px;
+    }
+    .kuzco-lhama{
+        width: 200px;
+    }
+    .tarzan-perdeu{
+    width: 200px;
+    }
+    .fim-de-jogo{
+        height: 60px;
+    }
+}
