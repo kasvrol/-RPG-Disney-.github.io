@@ -1,0 +1,175 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#imperador{
+    background-image: url(./kuzco/fundo-imperador.jpg);
+    margin: auto;
+}
+#tarzan{
+    background-image: url(./tarzan/fundo-selva.jpg);
+    margin: auto;
+}
+#nemo{
+    background-image: url(./nemo/mar-fundo.jpg);
+    margin: auto;
+}
+header{
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-family: 'WaltographRegular';
+}
+.perguntas{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+}
+img{
+    width: 400px;
+}
+.tarzan02{
+    width: 300px;
+}
+.imperador02{
+    width: 300px;
+}
+.imperador03{
+    width: 220px;
+}
+.barracuda{
+    width: 200px;
+}
+.tubarao{
+    width: 450px;
+}
+.perguntas p{
+    font-size: 30px;
+    color: white;
+    text-align:justify;
+    margin: 0px 20px 20px 20px;
+    font-family: 'Bebas Neue', cursive;
+    width: 50%;
+}
+.respostas{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: text-top;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.respostas p{
+    width: 40%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+}
+button{
+    margin-bottom: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    background-color: red;
+    border-bottom: red;
+    cursor: pointer;
+    margin: 20px 10px 20px 10px;
+    
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+footer span{
+    font-family: 'WaltographRegular';
+}
+
+@media screen and (max-width: 700px){
+    #imperador, #tarzan, #nemo{
+        background-color: rgb(15, 15, 59);
+        background-image: none;
+        margin: auto;
+    }
+    header{
+        margin: 5px 0 5px 0;
+        padding: 10px 0 10px 0;
+    }
+    main{
+        justify-content: space-around;
+    }
+    h1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 0 0 0;
+        font-family: 'WaltographRegular';
+    }
+    img{
+        width: 200px
+    }
+    .imperador02{
+        width: 150px;
+    }
+    .tubarao{
+        width: 250px;
+    }
+
+    .perguntas{
+        flex-direction: column;
+        text-align: justify;
+        margin: 5px 0 5px 0;
+        padding: 10px 0 10px 0;
+        align-items:center;
+        justify-content: space-between;
+      
+
+    }
+    .respostas{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: justify;
+        margin: 5px 0 5px 0;
+        padding: 10px 0 10px 0;
+        align-items:center;
+        justify-content: space-between;
+        
+    }
+
+    .perguntas p, .respostas p{
+        font-size: 30px;
+        justify-content: space-around;
+        text-align:justify;
+        font-family: 'Bebas Neue', cursive;
+        padding: 10px 10px 10px 10px;
+        margin: initial;
+        width: initial;
+        color: white;
+    }
+    button{
+    width: 200px;
+    height: 40px;
+    }
+}
