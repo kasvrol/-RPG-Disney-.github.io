@@ -1,9 +1,11 @@
 body{
     background-image: url(wallpaper.jpg);
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header{
-    background-image: url(wallpaper.jpg);
     margin: auto;
     padding: 20px 10px 20px 10px;
 }
@@ -14,6 +16,11 @@ h1{
     text-align: center;
     margin: 10px 10px 10px 10px;
     font-family: 'WaltographRegular';
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 a{
     text-decoration: none;
@@ -32,8 +39,6 @@ h2{
 .personagens-historias{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: auto;
 }
 .personagens-a-ser-escolhidos{
     align-items: center;
@@ -43,20 +48,40 @@ h2{
     flex-direction: column;
     height: 300px;
 }
-.personagens-a-ser-escolhidos:hover{
-    width: 40%;
-}
+
 h3{
     font-size: 40px;
     margin-bottom: 30px;
     font-family: 'Bebas Neue', cursive;
 }
+.tarzan-imagem{
+    width: 200px;
+}
 .imagens{
     width: 250px;
 }
-.imagens:hover{
-    width: 300px;
+.kuzco-imagem{
+    width: 150px;
 }
+.imagens:hover{
+   width: 300px; 
+}
+.tarzan-imagem:hover{
+    width: 250px;
+}
+.kuzco-imagem:hover{
+    width: 180px;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+footer span{
+    font-family: 'WaltographRegular';
+}
+
 @media screen and (max-width: 700px){
     body{
         background-image: none;
