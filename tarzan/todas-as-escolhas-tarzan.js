@@ -2,7 +2,7 @@ function tarzan01() {
     while (true) {
         var escolha = prompt("1 - Tentar assustar os elefantes para o outro lado. \n 2 - Correr ao máximo e tentar tirar os filhotes do caminho.");
         if(escolha ==1){
-            location.assign('tarzan02.html');
+            location.assign('Tarzan02.html');
             break;
         }
         else if (escolha ==2) {
